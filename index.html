@@ -1294,7 +1294,7 @@ function buildGrid(){
 
 // Abre a imagem da planta correspondente. Os arquivos PNG devem ficar na mesma pasta deste HTML.
 function abrirPlanta(col){
-  const arquivo = `COLUNA ${Number(col)}.PNG`;
+  const arquivo = `COLUNA ${Number(col)}.png`;
   const url = new URL(arquivo, window.location.href);
   window.open(url.href, '_blank', 'noopener,noreferrer');
 }
